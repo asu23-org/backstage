@@ -8913,14 +8913,14 @@ __metadata:
   linkType: hard
 
 "@google-cloud/cloud-sql-connector@npm:^1.4.0":
-  version: 1.8.2
-  resolution: "@google-cloud/cloud-sql-connector@npm:1.8.2"
+  version: 1.8.3
+  resolution: "@google-cloud/cloud-sql-connector@npm:1.8.3"
   dependencies:
     "@googleapis/sqladmin": "npm:^31.0.0"
     gaxios: "npm:^7.0.0"
     google-auth-library: "npm:^10.0.0"
     p-throttle: "npm:^7.0.0"
-  checksum: 10/a9e8113f6b252e93ebdac2901c47584fa2c50d4ff0ad7ce1e1beb8ac8c710b24543927b2231eeb0f74eb467e122ec313ba3fb845d6f5878d35760eb3021aa6ec
+  checksum: 10/30c9424ed84cb26d7c7f07738a3e17ecb9c3bf20a21a5b3d75ef3e11d8bc97b7d62ab995b0721c6d27fab48f985eece263b7bc78ed3abccde296e65e01a9393a
   languageName: node
   linkType: hard
 
