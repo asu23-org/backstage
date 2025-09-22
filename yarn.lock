@@ -12438,7 +12438,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@open-draft/until@npm:^2.0.0, @open-draft/until@npm:^2.1.0":
+"@open-draft/until@npm:^2.0.0":
   version: 2.1.0
   resolution: "@open-draft/until@npm:2.1.0"
   checksum: 10/622be42950afc8e89715d0fd6d56cbdcd13e36625e23b174bd3d9f06f80e25f9adf75d6698af93bca1e1bf465b9ce00ec05214a12189b671fb9da0f58215b6f4
@@ -38319,15 +38319,14 @@ __metadata:
   linkType: hard
 
 "msw@npm:^2.0.0, msw@npm:^2.0.8, msw@npm:^2.7.3":
-  version: 2.11.2
-  resolution: "msw@npm:2.11.2"
+  version: 2.11.3
+  resolution: "msw@npm:2.11.3"
   dependencies:
     "@bundled-es-modules/cookie": "npm:^2.0.1"
     "@bundled-es-modules/statuses": "npm:^1.0.1"
     "@inquirer/confirm": "npm:^5.0.0"
     "@mswjs/interceptors": "npm:^0.39.1"
     "@open-draft/deferred-promise": "npm:^2.2.0"
-    "@open-draft/until": "npm:^2.1.0"
     "@types/cookie": "npm:^0.6.0"
     "@types/statuses": "npm:^2.0.4"
     graphql: "npm:^16.8.1"
@@ -38340,6 +38339,7 @@ __metadata:
     strict-event-emitter: "npm:^0.5.1"
     tough-cookie: "npm:^6.0.0"
     type-fest: "npm:^4.26.1"
+    until-async: "npm:^3.0.2"
     yargs: "npm:^17.7.2"
   peerDependencies:
     typescript: ">= 4.8.x"
@@ -38348,7 +38348,7 @@ __metadata:
       optional: true
   bin:
     msw: cli/index.js
-  checksum: 10/cd31627e79bfdc22d6695b5a001804ee4fc7145a157616589c72bdf95c60f1f12c5abee05730a9683e1a68d613c2e767a235fdadc21d30e398a1996c4b699d29
+  checksum: 10/f69452383651af45f4e096fb311d272fca03b5d8930b705bec6fad0a8e06f7dd313857215246216e23f491b7b16a60894e7c14e2be4786f3f1d1eabd480c2a5a
   languageName: node
   linkType: hard
 
@@ -48127,6 +48127,13 @@ __metadata:
   version: 3.0.0
   resolution: "unraw@npm:3.0.0"
   checksum: 10/bc344357abfa2c870f96c6121f479c6252a318404a9401ef0d84ee73e47a7bdc508a38305e7fae78634aed9ec716eb8a7da968ede705e91019b0de28a0fa64f3
+  languageName: node
+  linkType: hard
+
+"until-async@npm:^3.0.2":
+  version: 3.0.2
+  resolution: "until-async@npm:3.0.2"
+  checksum: 10/7134a00131457f03983a22deb11a726441169bfd38ac963cd9cd0b3057498c4bb94022cbb968f2d5cc60f1a75aa3c141ec403fc52ea5a4732e239aa7ce1f5e73
   languageName: node
   linkType: hard
 
